@@ -6,8 +6,6 @@ services:
       - "3335:3333"
 
   frontend:
-    build: ./frontend
+    build: ./web
     ports:
       - "5002:80"
-    environment:
-      - REACT_APP_MAPBOX_TOKEN=${TOKEN}

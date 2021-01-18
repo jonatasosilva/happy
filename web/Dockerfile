@@ -1,3 +1,4 @@
+
 FROM node:12-alpine as build
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
