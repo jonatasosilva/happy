@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://happy.jonatasosilva.dev/api'
+    baseURL: 'http://localhost:3334'
 });
 
 export default api;

@@ -4,7 +4,7 @@ export default {
     render(image: Image) {
         return {
             id: image.id,
-            url: `https://happy.jonatasosilva.dev/api/uploads/${image.path}`
+            url: `http://localhost:3334/uploads/${image.path}`
         };
     },
 

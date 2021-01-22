@@ -2,10 +2,12 @@ version: "3.7"
 services:
   backend:
     build: ./backend
+    restart: always
     ports:
-      - "3335:3333"
+      - "3334:3334"
 
   frontend:
     build: ./web
+    restart: always
     ports:
-      - "5002:80"
+      - "5001:80"
